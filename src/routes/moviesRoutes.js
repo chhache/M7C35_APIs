@@ -13,5 +13,6 @@ router.get('/movies/edit/:id', moviesController.edit);
 router.put('/movies/update/:id', moviesController.update);
 router.get('/movies/delete/:id', moviesController.delete);
 router.delete('/movies/delete/:id', moviesController.destroy);
+router.get('/search', moviesController.search);
 
 module.exports = router;
